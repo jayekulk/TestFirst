@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*global QUnit*/
 
 jQuery.sap.require("sap.ui.qunit.qunit-css");
@@ -34,4 +35,18 @@ sap.ui.require([
 	], function () {
 		QUnit.start();
 	});
+=======
+sap.ui.define([
+	"sap/ui/test/Opa5",
+	"./arrangements/Startup",
+	"./NavigationJourney"
+], function (Opa5, Startup) {
+	"use strict";
+
+	Opa5.extendConfig({
+		arrangements: new Startup(),
+		viewNamespace: "odata.ODataModel.view.",
+		autoWait: true
+	});
+>>>>>>> refs/heads/master
 });

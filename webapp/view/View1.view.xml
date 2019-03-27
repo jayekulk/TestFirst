@@ -2,7 +2,7 @@
 	displayBlock="true" xmlns="sap.m">
 	<App id="idAppControl">
 		<pages>
-			<Page title="{i18n>title}">
+			<Page title="{i18n>title2}">
 				<content>
 					<Input id="input" value="{Northwind>/results/0/ProductName}"/>
 					<List id="list" items="{}">
